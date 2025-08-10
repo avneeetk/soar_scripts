@@ -1,0 +1,27 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore any hosts files (mock or real) to prevent leaking sensitive configs
+mock_hosts
+hosts
+/etc/hosts
+
+# Ignore build folders
+/build/
+/dist/
+/bin/
+/Debug/
+/Release/
+
+# Ignore logs
+*.log
